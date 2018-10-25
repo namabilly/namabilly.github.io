@@ -1,2 +1,2 @@
-# namabilly.io
+# namabilly.github.io
 personal page
