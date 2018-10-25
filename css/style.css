@@ -1,0 +1,138 @@
+.header {
+    background: transparent url('../static/img/rachelgardner.jpg') no-repeat;
+    background-position: -300px -150px;
+    background-size: auto;
+    
+    font-family: 'Oswald', sans-serif, inherit;
+    font-weight: 300;
+    width: 1920px;
+    height: 250px;
+    font-size: 17px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 20px;
+    font-family: palatino, fantasy, inherit;
+}
+
+
+.navigation-bar li {
+    float: left;
+}
+
+.navigation-bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation-bar li a:hover {
+    background-color: #111;
+}
+
+h2 {
+    align-content: center;
+    font-family: sans-serif;
+}
+
+/*
+.menu-left{
+    float: left;
+}
+
+.menu-right{
+    float: right;
+}
+
+.menu > li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu a {
+    color: #C0C0A0;
+    font-size: 25px;
+    font-family: cursive, fantasy, inherit;
+}
+
+.menu li.menu-on a{
+    color: #000000;
+    padding: 19px 0px 28px 0px;
+    background-color: #898989;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:focus{
+    text-decoration: none;
+    color: white;
+}
+
+.welcome{
+    background: transparent url('https://easyfastlearn.files.wordpress.com/2014/01/chemistry-peels.jpg') center center no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    height: 500px;
+}
+
+.welcome p{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif, inherit;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}*/
