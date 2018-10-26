@@ -129,6 +129,37 @@ li.dropdown {
     font-family: Palatino, arial;
 }
 
+.welcome-1 {
+    background: transparent url("../static/img/kid.jpg") no-repeat; 
+    background-position: -80px -200px;
+    background-size: auto;
+    height: 500px;
+    width: auto;
+}
+
+.welcome-2 {
+    background: transparent url("../static/img/korosensei.jpg") no-repeat; 
+    background-position: 0 0 ;
+    background-size: 1200px;
+    height: 500px;
+    width: auto;
+}
+
+.welcome-3 {
+    background: transparent url("../static/img/miku.jpg") no-repeat; 
+    background-position: -50px -100px;
+    background-size: 1200px;
+    height: 500px;
+    width: auto;
+}
+
+.welcome-4 {
+    background: transparent url("../static/img/kotobanoniwa.jpg") no-repeat; 
+    background-position: 0px 0px;
+    background-size: 1200px;
+    height: 500px;
+    width: auto;
+}
 
 .welcome {
     background-color: rgba(0, 0, 0, 0.4); 
