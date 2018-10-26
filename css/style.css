@@ -45,20 +45,32 @@
     background-color: #111;
 }
 
+.profile {
+    position: relative;
+    z-index: -1;
+}
+
 .profile #profile-img {
     border-radius: 100px;
     height: 200px;
 }
 
-.intro p {
-    font-size: 30px;
+.profile p {
+    font-size: 20px;
     text-align: left;
+}
+
+.profile .divider {
+    height: 250px;
+    width: 3px;
+    background-color: #FF1493; 
 }
 
 h2 {
     align-content: center;
     font-family: sans-serif;
 }
+
 
 .welcome {
     background-color: rgba(0, 0, 0, 0.7); 
