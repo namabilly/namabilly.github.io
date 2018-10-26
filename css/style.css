@@ -5,7 +5,7 @@
     
     font-family: 'Oswald', sans-serif, inherit;
     font-weight: 300;
-    width: 1920px;
+    width: auto;
     height: 250px;
     font-size: 17px;
     padding-left: 0px;
@@ -25,6 +25,9 @@
     font-family: palatino, fantasy, inherit;
 }
 
+.navigation-bar {
+    z-index: 500;
+}
 
 .navigation-bar li {
     float: left;
@@ -42,62 +45,34 @@
     background-color: #111;
 }
 
+.profile #profile-img {
+    border-radius: 100px;
+    height: 200px;
+}
+
+.intro p {
+    font-size: 30px;
+    text-align: left;
+}
+
 h2 {
     align-content: center;
     font-family: sans-serif;
 }
 
-/*
-.menu-left{
-    float: left;
-}
-
-.menu-right{
-    float: right;
-}
-
-.menu > li {
-    display: inline;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.menu a {
-    color: #C0C0A0;
-    font-size: 25px;
-    font-family: cursive, fantasy, inherit;
-}
-
-.menu li.menu-on a{
-    color: #000000;
-    padding: 19px 0px 28px 0px;
-    background-color: #898989;
-}
-
-.menu a:hover{
-    text-decoration: none;
-    color: white;
-}
-
-.menu a:focus{
-    text-decoration: none;
-    color: white;
-}
-
-.welcome{
-    background: transparent url('https://easyfastlearn.files.wordpress.com/2014/01/chemistry-peels.jpg') center center no-repeat;
+.welcome {
+    background-color: rgba(0, 0, 0, 0.7); 
     background-size: contain;
-    top: 0;
-    left: 0;
+    
     height: 500px;
+    
+    
+    
 }
 
-.welcome p{
-    text-align: center;
+.slider .slide {
     position: relative;
-    top: 20px;
-    font-size: 30px;
-    font-family: 'Oswald', sans-serif, inherit;
+    z-index: -1;
 }
 
 .slider-nav {
@@ -135,4 +110,4 @@ h2 {
 
 .slider-dots li.active-dot {
   color: #363636;
-}*/
+}
